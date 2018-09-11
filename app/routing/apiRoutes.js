@@ -51,5 +51,29 @@ module.exports = function(app) {
 
             // The modal should display both the name and picture of the closest match.
 
+            console.log(req.body);
+
+        var user = req.body;
+        var score = user.scores;
+        var theDifference;
+
+        for (var i = 0; i < friendsData.length; i++) {
+            console.log(friendsData[i]);
+            theDiffference = 0;
+
+            for (var j = 0; j < score.length; j++) {
+            difference += Math.abs(score[j] - friendsData[i].scores[j]);
+
+            if (theDifference <= match.difference) {
+                match.name = friendsData[i].name;
+                match.photo = friendsData[i].photo;
+                match.difference = theDifference;
+            }
+            }
+        }
+        friendsData.push(user);
+        res.json(match);
+
+
     });
   };
