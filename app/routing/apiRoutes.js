@@ -57,13 +57,20 @@ module.exports = function(app) {
         var score = user.scores;
         var theDifference;
 
+        // loop through friendsData
         for (var i = 0; i < friendsData.length; i++) {
+            // set a variable for each friendsData
             var friendData = friendsData[i];
             console.log(friendData);
+
+            // will be used to calculate difference
             theDifference = 0;
 
+            // loop through the scores of the users
             for (var j = 0; j < score.length; j++) {
+                // set each score to a variable
                 var eachScore = score[j];
+                // take each score and subtract it from friendData score
                 theDifference += Math.abs(eachScore - friendData.eachScore);
 
             if (match.difference >= theDifference) {
@@ -79,3 +86,5 @@ module.exports = function(app) {
 
     });
   };
+
+  
