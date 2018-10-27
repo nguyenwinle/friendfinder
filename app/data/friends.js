@@ -7,7 +7,7 @@
 var friendsData = [
     {
         "name":"Ahmed",
-        "photo":"https://images.axios.com/078ps5QcbNgqsgEI_QkV9hDW9PQ=/0x0:3900x2194/1920x1080/2018/08/25/1535212462538.jpg",
+        "photo":"https://www.peopleconnect.us/images/leadership/PeopleConnect-Abani-Heller.jpg",
         "scores":[
             5,
             1,
@@ -23,7 +23,7 @@ var friendsData = [
       },
       {
         "name":"Win",
-        "photo":"https://images.axios.com/078ps5QcbNgqsgEI_QkV9hDW9PQ=/0x0:3900x2194/1920x1080/2018/08/25/1535212462538.jpg",
+        "photo":"https://avatars0.githubusercontent.com/u/20157499?s=460&v=4",
         "scores":[
             1,
             2,
@@ -39,7 +39,7 @@ var friendsData = [
       },
       {
         "name":"Jon",
-        "photo":"https://images.axios.com/078ps5QcbNgqsgEI_QkV9hDW9PQ=/0x0:3900x2194/1920x1080/2018/08/25/1535212462538.jpg",
+        "photo":"https://news.artnet.com/app/news-upload/2018/10/1046777210-256x256.jpg",
         "scores":[
             4,
             3,
@@ -55,7 +55,7 @@ var friendsData = [
       },
       {
         "name":"Christine",
-        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUtlB3PewteN8QS2OWqJTWob_KKZTQS4UX779ACXcvPPh9rAREpg",
+        "photo":"https://www.aaronandpartners.com/wp-content/uploads/Natalie-Antenbring-Unwin.jpg",
         "scores":[
             3,
             3,
@@ -67,38 +67,6 @@ var friendsData = [
             3,
             3,
             3
-          ]
-      },
-      {
-        "name":"Vincent",
-        "photo":"https://hearcolorado.org/wp-content/uploads/2016/07/famous-peoples-hearing-loss.jpg",
-        "scores":[
-            2,
-            2,
-            5,
-            5,
-            5,
-            1,
-            5,
-            5,
-            4,
-            5
-          ]
-      },
-      {
-        "name":"Sarah",
-        "photo":"https://peopleprogram.wiscweb.wisc.edu/wp-content/uploads/sites/118/2017/06/Maichou-Lor-600x400.jpg",
-        "scores":[
-            5,
-            2,
-            1,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
           ]
       }
 
